@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+.musica {
+    display: none;
+}
+
+input {
+    all: unset;
+    width: 300px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}

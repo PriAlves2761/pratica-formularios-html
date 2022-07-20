@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Recomendação de Música</title>
+</head>
+
+<body>
+    <h2>Recomendação de Música</h2> 
+
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <div class="genero">
+            <label for="genero">Gênero Musical</label>
+            <select name="genero" id="genero" required autocomplete="off">
+                <option value="" selected>Selecionar</option>
+                <option value="rock">Rock</option>
+                <option value="mpb">MPB</option>
+                <option value="samba">Samba</option>
+            </select>
+        </div>
+        <div class="musica">
+            <input type="text" id="musica" name="q">
+        </div>
+        <button type="submit" id="btn-ouvir">Ouvir</button>
+    </form>
+</body>
+
+</html>

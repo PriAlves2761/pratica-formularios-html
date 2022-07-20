@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+}
+
+.alerta {
+    font-weight: 700;
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.escondido {
+    display: none;
+}
